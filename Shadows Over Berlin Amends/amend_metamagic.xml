@@ -1,0 +1,44 @@
+<chummer>
+	<metamagics>
+		<metamagic>
+			<name>Sacrifice</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Taint</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Corruption</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Paradigm Shift: Insect Shaman</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Paradigm Shift: Toxic</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Spirit Expansion: Shedim</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Predator Feast</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Soul Tether</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Spiritual Sacrifice</name>
+			<hide />
+		</metamagic>
+		<metamagic>
+			<name>Echo Binding</name>
+			<hide />
+		</metamagic>
+	</metamagics>
+</chummer>

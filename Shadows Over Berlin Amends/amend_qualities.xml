@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<qualities>
+		<!-- Region Banned Chargen -->
+		<quality xpathfilter="contains(name,'Dracoform')">
+			<hide />
+		</quality>
+		<quality>
+			<name>Latent Dracomorphosis</name>
+			<hide />
+		</quality>
+		<quality xpathfilter="contains(name,'Infected:')">
+			<careeronly />
+		</quality>
+		<quality xpathfilter="contains(name,'Carrier')">
+			<careeronly />
+		</quality>
+		<quality xpathfilter="contains(name,'Crystal')">
+			<careeronly />
+		</quality>
+		<!-- End Region Banned Chargen -->
+		<!-- Region Banned Qualities -->
+		<quality>
+			<name>Arcology Tantrum</name>
+			<hide />
+		</quality>
+		<quality xpathfilter="contains(name,'Amnesia')">
+			<hide />
+		</quality>
+		<quality>
+			<name>Astral Bouncer</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>Hung Out To Dry</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>One Of Them</name>
+			<hide />
+		</quality>
+		<quality>
+			<name>Pregnant</name>
+			<hide />
+		</quality>
+		<!-- Sub-Region Restricted Metagenic Qualities -->
+		<quality>
+			<name>Arcane Arrester</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Celerity</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dermal Alteration </name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dermal Deposits</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Elongated Limbs</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Glamour</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality xpathfilter="contains(name,'Metagenic Improvement')">
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality xpathfilter="contains(name,'Natural Venom')">
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Satyr Legs</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Astral Hazing</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Berserker</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality xpathfilter="contains(name,'Impaired Attribute')">
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Symbiosis</name>
+			<forbidden>
+				<oneof>
+					<quality>Changeling (Class I SURGE)</quality>
+					<quality>Changeling (Class II SURGE)</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<!-- End Sub-Region Restricted Metagenic Qualities -->
+		<quality>
+			<name>The Twisted Way</name>
+			<hide />
+		</quality>
+		<!-- End Region Banned Qualities -->
+		<!-- Region Qualities House Rules -->
+		<quality>
+			<name>Team Player</name>
+			<karma>0</karma>
+		</quality>
+		<quality>
+			<name>Earther</name>
+			<karma>0</karma>
+		</quality>
+		<quality>
+			<name>Spacer</name>
+			<karma>0</karma>
+		</quality>
+		<quality>
+			<name>Human Lifespan</name>
+			<karma>0</karma>
+		</quality>
+		<!-- End Region Qualities House Rules -->
+	</qualities>
+</chummer>
