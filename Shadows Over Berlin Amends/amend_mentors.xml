@@ -39,9 +39,5 @@
 			<name>Planar Entity</name>
 			<hide />
 		</mentor>
-		<mentor>
-			<name>Doom</name>
-			<hide />
-		</mentor>
 	</mentors>
 </chummer>
