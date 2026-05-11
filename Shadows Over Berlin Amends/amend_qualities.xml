@@ -81,7 +81,7 @@
 			</forbidden>
 		</quality>
 		<quality>
-			<name>Dermal Alteration </name>
+			<name>Dermal Alteration</name>
 			<forbidden>
 				<oneof>
 					<quality>Changeling (Class I SURGE)</quality>
